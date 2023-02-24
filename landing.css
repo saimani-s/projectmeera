@@ -1,0 +1,85 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0%;
+}
+
+.big{
+    background-image:url(./landing-page-bg.jpg);
+    height:720px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sat{
+    width:80%;
+}
+.para >h1{
+    font-weight: 700;
+    color: white;
+    font-size: 48px;
+}
+.para{
+    position: relative;
+    top:35vh;
+    left:12vh;
+}
+.prod >p{
+    font-weight: 700;
+    color: white;
+    font-size: 25px;
+}
+.prod{
+    position: relative;
+    top:40vh;
+    left:12vh;
+}
+
+.but >button{
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight: 700;
+    background:white;
+    color: black ;
+    border: 2px solid white ;
+    border-radius: 3px;
+    
+}
+.but > button >a{
+    color:black;
+    text-decoration: none;
+}
+
+.but{
+    position: relative;
+    top:50vh;
+    left:12vh;
+}
+
+.buts >button{
+    padding: 15px 45px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color:#292823 ;
+    color:white ;
+    border: 2px solid white ;
+    border-radius: 3px;
+    
+}
+
+
+.buts > button >a{
+    color: white;
+    text-decoration: none;
+}
+.buts{
+    position: relative;
+    top:50vh;
+    left:12vh;
+}
+.rank{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:28%;
+}

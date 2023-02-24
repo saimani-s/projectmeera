@@ -1,0 +1,25 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.run{
+    background-image: url(./landing-page-head.jpg);
+    background-size: cover;
+    width:100%;
+    height: 100px;;
+}
+.card-title{
+    font-style: bold;
+    font-size: 20px;
+    font-weight: 800;
+}
+.card-text{
+    font-size: 14px;
+    font-weight: 100;
+    color: #808080;
+}
+.down{
+    margin-top: 5vh;
+   
+}

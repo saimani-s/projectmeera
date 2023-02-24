@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tring Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/landing.css">
+    <link rel="icon" href="./css/favicon.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+
+
+<style>
+    .start{
+    
+    border: 2px solid white;
+    margin: auto;
+  width: 60%;
+  box-shadow: 0 0.125rem 0.125rem -0.125rem rgb(31 27 45 / 8%), 0 0.25rem 0.75rem rgb(31 27 45 / 8%) !important;
+}
+    .sd{
+  width:70%;
+    margin: auto;
+}
+.a{
+font-weight: 700;
+font-size: 30px;
+        }
+        .he >h2{
+color: #292823;
+font-weight: 700;
+font-size: 30px;
+margin-top: 3vh;
+        }
+        .hed >h1{
+color: #292823;
+font-weight: 700;
+font-size: 30px;
+        }
+       
+        .dropbtn {
+  background-color: #292823;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 5vh;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropbtns {
+  background-color: #292823;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  margin-top: 5vh;
+}
+
+.dropdowns {
+  position: relative;
+  display: inline-block;
+  margin-left: 14vh;
+ 
+}
+
+
+.cf{
+    border: white solid 1px;
+    box-shadow: 0 0.125rem 0.125rem -0.125rem rgb(31 27 45 / 8%), 0 0.25rem 0.75rem rgb(31 27 45 / 8%) !important;
+width:40%;
+margin: auto;
+}
+.cf >img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5vh;
+}
+.cf >h4{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2vh;
+}
+.proper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dropdown-contents {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contents a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-contents a:hover {background-color: #ddd;}
+
+.dropdowns:hover .dropdown-contents {display: block;}
+
+
+.loc{
+    margin-top: 5vh;
+}
+.sap{
+    margin-top: 5vh;
+}
+.bb{
+  border: 1px dashed grey;
+  height: 150px;
+  border-radius: 9px;
+  width:80%;
+}
+.bb >button{
+margin-top: 6vh;
+margin-left: 12vh;
+
+}
+.run{
+    background-image: url(./css/landing-page-head.jpg);
+    background-size: cover;
+    width:100%;
+    height: 100px;
+}
+</style>
+</head>
+<body>
+
+    <div class="run">
+
+    </div>
+    <div class="start">
+        <div class="sd">
+    <div class="loc">
+    <div class="pp">
+    <h4>Locality/Project/Landmark</h4>
+</div>
+<div class="input-group flex-nowrap"  style="margin-top:2vh;">
+    <input type="text" class="form-control" placeholder="search in a city,locality,project or landmark" aria-label="Username" aria-describedby="addon-wrapping">
+  </div>
+    </div>
+
+
+
+
+    <div class="loc">
+        <div class="pp">
+        <h4>Locality/Project/Landmark</h4>
+    </div>
+
+<div class=proper>
+
+    <div class="cf">
+        <img src="css/house.png">
+        <h4>Flat</h4>
+
+    </div>
+
+    <div class="cf">
+        <img src="css/house (1).png">
+        <h4>House</h4>
+
+    </div>
+
+    <div class="cf">
+        <img src="css/for-sale.png">
+        <h4>Plot</h4>
+
+    </div>
+
+    <div class="cf">
+        <img src="css/office-building.png">
+        <h4>Office Space</h4>
+
+    </div>
+
+    <div class="cf">
+        <img src="css/store.png">
+        <h4>Shop </h4>
+
+    </div>
+</div>
+
+    <div class="loc">
+        <div class="pp">
+        <h4>Budget</h4>
+    </div>
+    <div class="btn-group">
+        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ₹Min
+        </button>
+        
+      </div>
+      <div class="btn-group">
+        <button class="btn btn-secondary btn-sm" type="button">
+            ₹Max
+        </button>
+        <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+       
+      </div>
+</div>
+<div class="mk" style="margin-top: 5vh; ">
+    <h1 style="font-size: 20px";>
+       Bedroom
+    </h1>
+</div>
+<div class="input-group mb-3">
+
+    <button class="btn btn-outline-secondary" type="button">1 BHK</button>
+    <button class="btn btn-outline-secondary" type="button">2 BHK</button>
+    <button class="btn btn-outline-secondary" type="button">3 BHK</button>
+    <button class="btn btn-outline-secondary" type="button">4 BHK</button>
+    <button class="btn btn-outline-secondary" type="button">5 BHK</button>
+   
+  </div>
+
+
+<div class="mk" style="margin-top: 5vh; ">
+    <h1 style="font-size: 20px";>
+       Posted By
+    </h1>
+</div>
+<button type="button" class="btn btn-secondary btn-lg">Owner</button>
+<button type="button" class="btn btn-secondary btn-lg">Agent</button>
+<button type="button" class="btn btn-secondary btn-lg">Builder</button>
+
+  <div class="mk" style="margin-top: 5vh; ">
+    <h1 style="font-size: 20px";>
+       Posssession Status
+    </h1>
+    <button type="button" class="btn btn-secondary btn-lg">Under Construction</button>
+    <button type="button" class="btn btn-secondary btn-lg">Ready to Move</button>
+</div>
+
+
+<div class="mk" style="margin-top: 5vh; ">
+    <h1 style="font-size: 20px";>
+       Posted since
+    </h1>
+    <button type="button" class="btn btn-secondary btn-lg">Any time</button>
+    <button type="button" class="btn btn-secondary btn-lg">Yesterday</button>
+    <button type="button" class="btn btn-secondary btn-lg">Last Week</button>
+    <button type="button" class="btn btn-secondary btn-lg">Last Month</button>
+</div>
+
+<div class="mk" style="margin-top: 5vh; ">
+    <h1 style="font-size: 20px";>
+     Sale Type
+    </h1>
+    <button type="button" class="btn btn-secondary btn-lg">New</button>
+    <button type="button" class="btn btn-secondary btn-lg">Resale</button>
+</div>
+
+
+
+<div class="loc">
+    <div class="pp">
+    <h2 style="font-size: 20px">RERA Registered</h2>
+</div>
+  <div class="form-check"  style="margin-top: 2vh";>
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+   RERA registered properties
+    </label>
+  </div>
+  <div class="form-check"  style="margin-top: 2vh";>
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+     RERA registered agents
+    </label>
+  </div>
+
+
+  <div class="loc">
+    <div class="pp">
+    <h2 style="font-size: 20px">Furnishing</h2>
+</div>
+  <div class="form-check"  style="margin-top: 2vh";>
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+    Unfurnished
+    </label>
+  </div>
+  <div class="form-check"  style="margin-top: 2vh";>
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      Semi-Furnished
+    </label>
+  </div>
+  <div class="form-check" style="margin-top: 2vh"; >
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+      Fully-Furnished
+    </label>
+  </div>
+
+
+  <div class="mk" style="margin-top: 5vh; ">
+    <h1 style="font-size: 20px";>
+       Facing*
+    </h1>
+</div>
+<div class="input-group mb-3">
+
+    <button class="btn btn-outline-secondary" type="button">North</button>
+    <button class="btn btn-outline-secondary" type="button">North-West</button>
+    <button class="btn btn-outline-secondary" type="button">South</button>
+    <button class="btn btn-outline-secondary" type="button">South-East</button>
+    <button class="btn btn-outline-secondary" type="button">West</button>
+   
+  </div>
+
+</div>
+
+<div class="mk" style="margin-top: 5vh; ">
+    <h1 style="font-size: 20px";>
+       Bathrooms
+    </h1>
+</div>
+<div class="input-group mb-3">
+
+    <button class="btn btn-outline-secondary" type="button">1     </button>
+    <button class="btn btn-outline-secondary" type="button">2     </button>
+    <button class="btn btn-outline-secondary" type="button">3     </button>
+    <button class="btn btn-outline-secondary" type="button">4     </button>
+    <button class="btn btn-outline-secondary" type="button">5     </button>
+   
+  </div>
+
+  <div class="mk" style="margin-top: 5vh; ">
+    <h1 style="font-size: 20px";>
+    Photos / Videos
+    </h1>
+    <button type="button" class="btn btn-secondary btn-lg">Photos</button>
+    <button type="button" class="btn btn-secondary btn-lg">Videos</button>
+</div>
+
+<div class="loc">
+    <div class="pp">
+    <h2 style="font-size: 20px">Show Only</h2>
+</div>
+  <div class="form-check"  style="margin-top: 2vh";>
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+    <label class="form-check-label" for="flexRadioDefault1">
+ properties with discounts and offers
+    </label>
+  </div>
+  <div class="form-check"  style="margin-top: 2vh";>
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+ Exclusive properties
+    </label>
+  </div>
+  <div class="form-check"  style="margin-top: 2vh";>
+    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+    <label class="form-check-label" for="flexRadioDefault2">
+ properties posted by certified agents
+    </label>
+  </div>
+  <div class="end" style="margin-top: 3vh;">
+  <a href="./search.html" class="btn btn-primary">search</a>
+
+</div>
+
+
+
+
+
+
+
+</div>
+    </div>
+    
+</body>
+</html>
